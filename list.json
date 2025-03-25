@@ -1,20 +1,82 @@
 {
-    "list": [
+    "lists": [
         {
-            "title": "Google",
-            "url": "https://www.google.com/"
+            "path": "socials",
+            "title": "Socials",
+            "list": [
+                {
+                    "title": "Google",
+                    "url": "https://www.google.com/",
+                    "desc":  "Google is a multinational technology corporation and the company behind the popular search engine, Google Search, focusing on online advertising, search engine technology, cloud computing, and more"
+                },
+                {
+                    "title": "Facebook",
+                    "url": "https://www.facebook.com/",
+                    "desc": ""
+                },
+                {
+                    "title": "Twitter",
+                    "url": "https://www.twitter.com/",
+                    "desc": ""
+                },
+                {
+                    "title": "Instagram",
+                    "url": "https://www.instagram.com/",
+                    "desc": ""
+                }
+            ]
         },
         {
-            "title": "Facebook",
-            "url": "https://www.facebook.com/"
+            "path": "apps",
+            "title": "Apps",
+            "list": [
+                {
+                    "title": "Netflix",
+                    "url": "https://www.netflix.com/",
+                    "desc": ""
+                },
+                {
+                    "title": "Hulu",
+                    "url": "https://www.hulu.com/",
+                    "desc": ""
+                },
+                {
+                    "title": "Disney+",
+                    "url": "https://www.disneyplus.com/",
+                    "desc": ""
+                },
+                {
+                    "title": "Amazon Prime Video",
+                    "url": "https://www.primevideo.com/",
+                    "desc": ""
+                }
+            ]
         },
         {
-            "title": "Twitter",
-            "url": "https://www.twitter.com/"
-        },
-        {
-            "title": "Instagram",
-            "url": "https://www.instagram.com/"
+            "path": "games",
+            "title": "Games",
+            "list": [
+                {
+                    "title": "Steam",
+                    "url": "https://store.steampowered.com/",
+                    "desc": ""
+                },
+                {
+                    "title": "Gaming Store",
+                    "url": "https://www.gamingstore.com/",
+                    "desc": ""
+                },
+                {
+                    "title": "Epic Games Store",
+                    "url": "https://www.epicgames.com/store/",
+                    "desc": ""
+                },
+                {
+                    "title": "Origin",
+                    "url": "https://www.origin.com/",
+                    "desc": ""
+                }
+            ]
         }
     ]
 }
