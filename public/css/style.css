@@ -13,14 +13,44 @@ body {
     flex-direction: column;
 }
 
+header {
+    color: #333;
+    border-bottom: #666 solid;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border: #666 solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+    padding: 10px;
+}
+
+main {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-y: auto;
+    border: #666 solid;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+}
+
 li {
     margin: 5px;
     padding: 5px;
+    list-style-type: circle;
 }
 
 li a {
     cursor: pointer;
     text-decoration: none;
+    color: #337ab7;
 }
 
 .tooltip {

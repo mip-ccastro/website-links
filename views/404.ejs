@@ -14,23 +14,50 @@
         height: 100vh;
         background-color: #f5f5f5;
     }
-    main {
+    div {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         max-width: 600px;
-        padding: 20px;
+        padding: 65px;
         background-color: #fff;
-        border-radius: 5px;
+        border-radius: 10px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2, p {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1{
+        font-size: 48px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    p {
+        font-size: 18px;
+        color: #666;
+        margin-top: 10px;
+    }
+
+    a {
+        color: #337ab7;
+        text-decoration: none;
     }
 </style>
 <body>
-    <main>
+    <div>
         <h1>404</h1>
         <h2>Page not Found</h2>
         <p>Back to main page <span><a href="/">click here</a></span>.</p>
-    </main>
+    </div>
 </body>
 </html>
